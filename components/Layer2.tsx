@@ -1,6 +1,4 @@
 import Image from 'next/image';
-
-
 const Layer2 = () =>{
     return(
         <div className="bg-bcport-img  pb-20 pt-10 text-white  relative">
