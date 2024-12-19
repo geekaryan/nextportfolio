@@ -1,4 +1,5 @@
 import LeftHalf from "./LeftHalf";
+import RightHalf from "./RightHalf";
 
 const Context =  () => {
         return(
@@ -6,8 +7,8 @@ const Context =  () => {
             <div>
                 <LeftHalf />
             </div>
-            <div>
-                SecondHalf
+            <div className="border-t-2 pt-2 ml-11">
+                <RightHalf />
             </div>
         </div>
         )

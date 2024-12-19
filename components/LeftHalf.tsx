@@ -8,7 +8,7 @@ import DataObjectIcon from '@mui/icons-material/DataObject';
 
 const LeftHalf = () => {
     return(<div className="ml-8 mt-8 text-white">
-       <div className="bg-black pt-[12px] pb-[12px] pl-[60px] pr-[60px] mb-4">
+       <div className="bg-black pt-[12px] pb-[12px] pl-[60px] pr-[50px] mb-4">
         Download Resume
        </div>
        <div className="bg-black pt-[12px] pb-[12px] pl-[76px] pr-[52px] mb-4">

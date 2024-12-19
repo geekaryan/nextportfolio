@@ -1,8 +1,8 @@
 const Header = () => {
     return(
         <div className="flex justify-between items-center mb-5 mt-5">
-          <div className="ml-4">
-            Aryan
+          <div className="ml-6 font-bold text-3xl">
+            Aryan Rana
           </div>
           <div className="flex">
             <div className="mr-8">
