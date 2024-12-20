@@ -42,7 +42,7 @@ const RightHalf = () =>{
                        </div>
                     </div>
                     <div>
-                        <p>Hi, I am Aryan, Final Year Student at VIT. I am MERN Stack Developer. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet possimus dolores distinctio dolor dolore, deleniti officia, similique porro ducimus voluptate, aliquam expedita perspiciatis architecto qui temporibus quaerat! Aliquam, ex esse.</p>
+                        <p> I’m Aryan, a final-year VIT student and MERN stack developer. With a passion for problem-solving and years of experience using Linux, I focus on system design, optimization, and building scalable solutions. Always learning, I aim to stay ahead in the tech field.</p>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@ const RightHalf = () =>{
                        </div>
                     </div>
                     <div>
-                        <p>Hi, I am Aryan, Final Year Student at VIT. I am MERN Stack Developer. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet possimus dolores distinctio dolor dolore, deleniti officia, similique porro ducimus voluptate, aliquam expedita perspiciatis architecto qui temporibus quaerat! Aliquam, ex esse.</p>
+                        <p>I worked extensively with the Next.js framework to build web pages and integrate APIs. I handled CSS issues, fixed ESLint bugs, and ensured smooth functionality across projects. Additionally, I gained experience using tools like Docker for containerization and Postman for API testing.</p>
                     </div>
                 </div>
             </div>
@@ -147,6 +147,11 @@ const RightHalf = () =>{
                         <p>Hi, I am Aryan, Final Year Student at VIT. I am MERN Stack Developer. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet possimus dolores distinctio dolor dolore, deleniti officia, similique porro ducimus voluptate, aliquam expedita perspiciatis architecto qui temporibus quaerat! Aliquam, ex esse.</p>
                     </div>
                 </div>
+            </div>
+
+            <div className="mt-12 mb-12">
+                <button className=" pt-2 pr-2 pl-2 pb-2 text-white bg-black text-center ml-[480px] rounded-md">Contact Me</button>
+
             </div>
         </div>
 
