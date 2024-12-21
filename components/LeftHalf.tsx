@@ -8,7 +8,7 @@ import TerminalIcon from '@mui/icons-material/Terminal';
 import DataObjectIcon from '@mui/icons-material/DataObject';
 
 const LeftHalf = () => {
-    return(<div className="lg:ml-8 ml-4 lg:mr-0 mr-6 lg:mt-8 mt-[120px] text-white">
+    return(<div className="lg:ml-8 ml-4 lg:mr-0 mr-4 lg:mt-8 mt-[120px] text-white">
        <div className="bg-black pt-[12px] pb-[12px] lg:pl-[60px] pl-[100px] lg:pr-[50px] pr-[30px] mb-4">
        <Link href="https://drive.google.com/file/d/181hxGKJ6Dq_qKsF5FG_53asmzcWlmx8H/view?usp=drive_link">Download Resume</Link> 
        </div>
