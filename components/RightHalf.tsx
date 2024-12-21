@@ -158,7 +158,7 @@ const RightHalf = () =>{
 
             <div className="mt-12 mb-12">
             <Link href="https://www.linkedin.com/in/sudoaptrana2025/">
-                <button className=" pt-2 pr-2 pl-2 pb-2 text-white bg-black text-center lg:ml-[480px] ml-[130px] rounded-md">
+                <button className=" pt-2 pr-2 pl-2 pb-2 text-white bg-black text-center lg:ml-[480px] ml-[110px] rounded-md">
                     Contact Me
                 </button>
             </Link>
