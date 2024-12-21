@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const Layer3 = () =>{
     return(
-        <div className="flex justify-between items-center text-center relative">
-            <div>
+        <div className="lg:flex justify-between items-center text-center relative hidden">
+            <div id="moveT">
                 
             </div>
             <div className="absolute top-[20px] left-[330px] bottom-[100px] text-3xl font-bold">

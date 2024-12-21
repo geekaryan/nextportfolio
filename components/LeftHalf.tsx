@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import CodeIcon from '@mui/icons-material/Code';
 import StorageIcon from '@mui/icons-material/Storage';
 import CloudIcon from '@mui/icons-material/Cloud';
@@ -7,21 +8,21 @@ import TerminalIcon from '@mui/icons-material/Terminal';
 import DataObjectIcon from '@mui/icons-material/DataObject';
 
 const LeftHalf = () => {
-    return(<div className="ml-8 mt-8 text-white">
-       <div className="bg-black pt-[12px] pb-[12px] pl-[60px] pr-[50px] mb-4">
-        Download Resume
+    return(<div className="lg:ml-8 ml-6 lg:mr-0 mr-6 lg:mt-8 mt-[120px] text-white">
+       <div className="bg-black pt-[12px] pb-[12px] lg:pl-[60px] pl-[100px] lg:pr-[50px] pr-[30px] mb-4">
+       <Link href="https://drive.google.com/file/d/181hxGKJ6Dq_qKsF5FG_53asmzcWlmx8H/view?usp=drive_link">Download Resume</Link> 
        </div>
-       <div className="bg-black pt-[12px] pb-[12px] pl-[76px] pr-[52px] mb-4">
-        View Project
+       <div className="bg-black pt-[12px] pb-[12px] lg:pl-[76px] pl-[120px] lg:pr-[52px] mb-4">
+        <Link href="https://github.com/geekaryan">View Project</Link>
        </div>
-       <div className="bg-black pt-[12px] pb-[12px] pl-[70px] pr-[60px] mb-4">
-        Coding Profile
+       <div className="bg-black pt-[12px] pb-[12px] lg:pl-[70px] pl-[116px] lg:pr-[60px] mb-4">
+        <Link href="https://leetcode.com/u/re_cur_sion/">Coding Profile</Link>
        </div>
-       <div className="bg-black pt-[12px] pb-[12px] pl-[84px] pr-[50px] mb-4">
-        Medium
+       <div className="bg-black pt-[12px] pb-[12px] lg:pl-[84px] pl-[136px] lg:pr-[50px] mb-4">
+        <Link href="https://medium.com/@sudoaptrana2025">Medium</Link>
        </div>
 
-       <div className="text-black">
+       <div className="text-black lg:mt-0 mt-[50px]" >
         Experience
        </div>
        <div className="w-[250px] mt-4 flex text-black items-center ">
@@ -84,7 +85,7 @@ const LeftHalf = () => {
              <RocketLaunchIcon />
             </div>
             <div>
-                Docker/ Postman
+                Docker/ Postman/ Kafka
             </div>
        </div>
        <div className="w-[250px] mt-4 flex text-black items-center ">
@@ -95,7 +96,7 @@ const LeftHalf = () => {
                 Linux/ Git
             </div>
        </div>
-       <div className="w-[250px] mt-4 flex text-black items-center ">
+       <div className="w-[250px] mt-4 flex text-black items-center mb-4">
             <div className="mr-4">
              <CloudIcon />
             </div>
