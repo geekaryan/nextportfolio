@@ -25,7 +25,7 @@ const LeftHalf = () => {
        <div className="text-black lg:mt-0 mt-[50px]" >
         Experience
        </div>
-       <div className="w-[250px] mt-4 flex text-black items-center ">
+       <div className="lg:w-[250px] mt-4 flex text-black items-center ">
             <div className="mr-4">
                <Image
                src="/exp1.png"
@@ -38,7 +38,7 @@ const LeftHalf = () => {
                 SDE Intern at easycompany
             </div>
        </div>
-       <div className="w-[250px] mt-4 flex text-black items-center ">
+       <div className="lg:w-[250px] mt-4 flex text-black items-center ">
             <div className="mr-4">
                <Image
                src="/exp2.png"
@@ -55,7 +55,7 @@ const LeftHalf = () => {
        <div className="text-black mt-[40px]">
         Skills
        </div>
-       <div className="w-[250px] mt-4 flex text-black items-center ">
+       <div className="lg:w-[250px] mt-4 flex text-black items-center ">
             <div className="mr-4">
               <CodeIcon />
             </div>
@@ -63,7 +63,7 @@ const LeftHalf = () => {
                 C++/ Javascript/ Typescript
             </div>
        </div>
-       <div className="w-[250px] mt-4 flex text-black items-center ">
+       <div className="lg:w-[250px] mt-4 flex text-black items-center ">
             <div className="mr-4">
              <StorageIcon />
             </div>
@@ -71,7 +71,7 @@ const LeftHalf = () => {
                 MySql/ MongoDB
             </div>
        </div>
-       <div className="w-[250px] mt-4 flex text-black items-center ">
+       <div className="lg:w-[250px] mt-4 flex text-black items-center ">
             <div className="mr-4">
              <DataObjectIcon />
             </div>
@@ -80,7 +80,7 @@ const LeftHalf = () => {
             </div>
        </div>
        
-       <div className="w-[250px] mt-4 flex text-black items-center ">
+       <div className="lg:w-[250px] mt-4 flex text-black items-center ">
             <div className="mr-4">
              <RocketLaunchIcon />
             </div>
@@ -88,7 +88,7 @@ const LeftHalf = () => {
                 Docker/ Postman/ Kafka
             </div>
        </div>
-       <div className="w-[250px] mt-4 flex text-black items-center ">
+       <div className="lg:w-[250px] mt-4 flex text-black items-center ">
             <div className="mr-4">
              <TerminalIcon />
             </div>
@@ -96,7 +96,7 @@ const LeftHalf = () => {
                 Linux/ Git
             </div>
        </div>
-       <div className="w-[250px] mt-4 flex text-black items-center mb-4">
+       <div className="lg:w-[250px] mt-4 flex text-black items-center mb-4">
             <div className="mr-4">
              <CloudIcon />
             </div>
