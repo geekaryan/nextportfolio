@@ -12,7 +12,7 @@ const Layer2 = () =>{
                alt="img"
                height={300}
                width={250}
-               className='absolute lg:top-6 lg:left-8 left-16'
+               className='absolute lg:top-6 lg:left-8 left-14'
                />
             </div>
             <div className="lg:flex justify-center absolute left-[340px] hidden">
